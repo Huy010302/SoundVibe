@@ -1,0 +1,59 @@
+{
+  "expo": {
+    "name": "SoundVibe",
+    "scheme": [
+      "SoundVibe"
+    ],
+    "slug": "SoundVibe",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/img_Logo.png",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      [
+        "react-native-fbsdk-next",
+        {
+          "appID": "752420732950795",
+          "clientToken": "7982b61c3e45d5c63932d269db9108c1",
+          "displayName": "cmusic-app-login-sdk"
+        }
+      ],
+      [
+        "expo-av",
+        {
+          "microphonePermission": "Allow SoundVibe app to access your microphone."
+        }
+      ]
+    ],
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.icerplusplus.SoundVibe"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.icerplusplus.SoundVibe"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "18df4597-ffc8-496c-b2eb-d56b2d7de8e1"
+      }
+    }
+  }
+}
